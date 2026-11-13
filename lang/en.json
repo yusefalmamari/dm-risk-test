@@ -1,0 +1,68 @@
+{
+  "resTitle": "Assessment Result",
+  "resMsg": "Note: This is a risk assessment based on ADA standards. A score of 5+ indicates a clinical risk requiring medical follow-up.",
+  "retry": "Restart Quiz",
+  "back": "Back",
+  "levels": ["Low Risk", "Moderate Risk", "High Risk"],
+  "hPlace": "Height (cm)",
+  "wPlace": "Weight (kg)",
+  "continue": "Continue",
+  "error": "Please enter valid values",
+  "questions": [
+    {
+      "q": "What is your sex?",
+      "key": "sex",
+      "a": [
+        { "t": "Male", "s": 1, "id": "male" },
+        { "t": "Female", "s": 0, "id": "female" }
+      ]
+    },
+    {
+      "q": "How old are you?",
+      "key": "age",
+      "a": [
+        { "t": "Under 40", "s": 0 },
+        { "t": "40 - 49", "s": 1 },
+        { "t": "50 - 59", "s": 2 },
+        { "t": "60 or older", "s": 3 }
+      ]
+    },
+    {
+      "q": "Have you ever been diagnosed with gestational diabetes?",
+      "key": "gest",
+      "a": [
+        { "t": "Yes", "s": 1 },
+        { "t": "No", "s": 0 }
+      ]
+    },
+    {
+      "q": "Family history of diabetes (parents or siblings)?",
+      "key": "family",
+      "a": [
+        { "t": "Yes", "s": 1 },
+        { "t": "No", "s": 0 }
+      ]
+    },
+    {
+      "q": "Have you ever been told you have high blood pressure?",
+      "key": "pressure",
+      "a": [
+        { "t": "Yes", "s": 1 },
+        { "t": "No", "s": 0 }
+      ]
+    },
+    {
+      "q": "Are you physically active?",
+      "key": "sport",
+      "a": [
+        { "t": "Yes", "s": 0 },
+        { "t": "No", "s": 1 }
+      ]
+    },
+    {
+      "q": "Enter height and weight for BMI risk",
+      "key": "weight",
+      "isBMI": true
+    }
+  ]
+}

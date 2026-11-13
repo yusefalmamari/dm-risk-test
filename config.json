@@ -1,0 +1,13 @@
+{
+  "bmi": [
+    { "min": 40, "score": 3 },
+    { "min": 30, "score": 2 },
+    { "min": 25, "score": 1 }
+  ],
+  "levels": [
+    { "min": 5, "index": 2, "css": "high" },
+    { "min": 4, "index": 1, "css": "med" },
+    { "min": 0, "index": 0, "css": "low" }
+  ],
+  "skip": { "gest": "male" }
+}
