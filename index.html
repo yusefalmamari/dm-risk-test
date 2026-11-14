@@ -3,12 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Diabetes Risk Assessment</title>
+    <title>Diabetes Risk Assessment Quiz</title>
+    <meta
+      name="description"
+      id="meta-desc"
+      content="Take this quick, ADA-standard-based diabetes risk assessment quiz to evaluate your risk level and find out if you need a medical follow-up."
+    />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="container" id="main-container" aria-live="polite">
+      <div class="lang-switcher">
+        <select id="lang-select" aria-label="Language"></select>
+      </div>
+
       <div class="progress-container" id="p-container">
         <div
           class="progress-bar"

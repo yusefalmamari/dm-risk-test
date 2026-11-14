@@ -1,4 +1,6 @@
 {
+  "metaTitle": "Diabetes Risk Assessment Quiz",
+  "metaDescription": "Take this quick, ADA-standard-based diabetes risk assessment quiz to evaluate your risk level and find out if you need a medical follow-up.",
   "resTitle": "Assessment Result",
   "resMsg": "Note: This is a risk assessment based on ADA standards. A score of 5+ indicates a clinical risk requiring medical follow-up.",
   "retry": "Restart Quiz",
